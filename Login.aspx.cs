@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -13,7 +8,6 @@ namespace CURD
     {
         SqlConnection conn = new SqlConnection("Data source=.\\SQLEXPRESS_LOCAL; initial catalog=Demo; integrated security=True");
         DataTable dt;
-        DataSet ds;
         SqlDataAdapter sda;
         protected void Page_Load(object sender, EventArgs e)
         {
