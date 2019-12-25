@@ -10,7 +10,7 @@ namespace CURD
         SqlConnection conn = new SqlConnection("Data source=.\\SQLEXPRESS_LOCAL; Initial Catalog=Demo; Integrated Security=True;");
         DataTable dt;       // For Returning Single Tables
         DataSet ds;        // For Returning Multiple ables
-        SqlDataAdapter sda; // Retrive Data from Data Source
+        SqlDataAdapter sda; //  Retrive Data from Data Source
         protected void Page_Load(object sender, EventArgs e)
         {
             if(!Page.IsPostBack)
