@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="Encryption_Insert.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Test.html" />
     <Content Include="ViewUser.aspx" />
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Encryption_Insert.aspx.cs">
+      <DependentUpon>Encryption_Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Encryption_Insert.aspx.designer.cs">
+      <DependentUpon>Encryption_Insert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
